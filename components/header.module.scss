@@ -1,0 +1,51 @@
+@import "../styles/variables.module.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 5%;
+
+  &__logo {
+    width: 10rem;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.box {
+  display: flex;
+
+  span {
+    font-size: 1.4rem;
+  }
+
+  &__icon {
+    font-size: 1.4rem;
+    margin: 0.4rem 0.5rem;
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.social {
+  display: flex;
+  width: 30%;
+  justify-content: right;
+
+  &__icon {
+    font-size: 4rem;
+    margin: 0 1rem;
+    text-align: right;
+
+    color: $color-primary;
+  }
+}

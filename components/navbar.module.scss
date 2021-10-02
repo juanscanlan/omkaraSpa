@@ -1,0 +1,19 @@
+@import "../styles/variables.module.scss";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 0 10%;
+  background-color: $color-primary;
+  color: #fff;
+
+  overflow: scroll;
+
+  span {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+  }
+}

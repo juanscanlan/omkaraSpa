@@ -1,0 +1,84 @@
+@import "../../styles/variables.module.scss";
+
+$width-golden: 20rem;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5rem 5%;
+  background-image: url(../../public/services/RoseGray.jpg);
+  background-repeat: repeat;
+  background-size: 20rem;
+
+  &__title {
+    font-size: 3rem;
+    margin: 2rem;
+    color: #54595f;
+
+    border-bottom: 1px solid #54595f;
+  }
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+
+  //padding: 5rem 5%;
+
+  &__box {
+    color: #fff;
+    font-size: 3.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width-golden * 1.618;
+    height: $width-golden;
+    border: 5px solid white;
+    box-shadow: 0px 0.1rem 0.6rem black;
+
+    border-radius: 20px;
+
+    background-size: cover;
+    background-position: bottom;
+  }
+}
+
+.fishSpa {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/services/fishSpa.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.masajes {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/services/masaje.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.velado {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/services/velado.jpeg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.depilacion {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/services/waxing.jpeg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.nails {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/services/nails.jpg);
+  background-size: cover;
+  background-position: bottom;
+}

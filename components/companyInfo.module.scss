@@ -1,0 +1,42 @@
+@import "../styles/variables.module.scss";
+
+.companyInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  color: #fff;
+
+  padding: 2rem 5%;
+  background-color: $color-secondary-dark;
+}
+
+.box {
+  &__title {
+    font-size: 2.4rem;
+
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.phone {
+  padding: 0.2rem 0;
+  &__icon {
+    font-size: 1.4rem;
+    margin: 0 1rem 0 0;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+  }
+}
