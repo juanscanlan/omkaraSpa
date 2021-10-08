@@ -53,10 +53,6 @@ function CompanyInfo() {
             />
             <span className={styles.phone__text}>?</span>
           </div>
-          <div className={styles.phone}>
-            <FontAwesomeIcon className={styles.phone__icon} icon={faEnvelope} />
-            <span className={styles.phone__text}>9982624981</span>
-          </div>
         </div>
       </div>
       <div className={styles.box}>

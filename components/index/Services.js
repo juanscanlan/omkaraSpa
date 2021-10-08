@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Services() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="services">
       <h3 className={styles.container__title}>Servicios</h3>
       <div className={styles.services}>
         <Link href="/Ictioterapia" passHref>
