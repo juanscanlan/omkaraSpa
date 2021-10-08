@@ -1,5 +1,7 @@
 import styles from "./header.module.scss";
 
+import Link from "next/link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -24,11 +26,14 @@ function Header() {
           <span>omkaraspacozumel@hotmail.com</span>
         </div>
       </div>
-      <img
-        className={styles.header__logo}
-        src="/navbar/OmkaraWhole.jpg"
-        alt="Omkara Logo"
-      />
+      <Link href="/">
+        <img
+          className={styles.header__logo}
+          src="/navbar/OmkaraWhole.jpg"
+          alt="Omkara Logo"
+        />
+      </Link>
+
       <div className={styles.social}>
         <FontAwesomeIcon
           className={styles.social__icon}

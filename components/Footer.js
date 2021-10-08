@@ -7,7 +7,11 @@ function Footer() {
         <span>Copyright &copy; 2021 - pagina.com</span>
       </div>
       <div>
-        <span>Site Developed by Juan Scanlan</span>
+        <span>
+          <a href="https://juanscanlan.github.io/" target="_blank">
+            Site Developed by Juan Scanlan
+          </a>
+        </span>
       </div>
     </footer>
   );

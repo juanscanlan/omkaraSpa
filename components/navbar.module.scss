@@ -15,5 +15,29 @@
   span {
     font-size: 2rem;
     padding: 0.5rem 1rem;
+
+    cursor: pointer;
+  }
+}
+
+.navbarMobile {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  background-color: $color-primary;
+  img {
+    display: none;
+    height: 6rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbarMobile img {
+    display: initial;
+  }
+  .navbar {
+    display: none;
   }
 }

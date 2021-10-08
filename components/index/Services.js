@@ -12,17 +12,27 @@ function Services() {
             Ictioterapia
           </div>
         </Link>
+        <Link href="/Masajes">
+          <div className={`${styles.services__box} ${styles.masajes}`}>
+            Masajes
+          </div>
+        </Link>
 
-        <div className={`${styles.services__box} ${styles.masajes}`}>
-          Masajes
-        </div>
-        <div className={`${styles.services__box} ${styles.velado}`}>
-          Velado de Oído
-        </div>
-        <div className={`${styles.services__box} ${styles.depilacion}`}>
-          Depilación
-        </div>
-        <div className={`${styles.services__box} ${styles.nails}`}>Uñas</div>
+        <Link href="/Velados">
+          <div className={`${styles.services__box} ${styles.velado}`}>
+            Velado de Oído
+          </div>
+        </Link>
+
+        <Link href="/Depilacion">
+          <div className={`${styles.services__box} ${styles.depilacion}`}>
+            Depilación
+          </div>
+        </Link>
+
+        <Link href="/Nails">
+          <div className={`${styles.services__box} ${styles.nails}`}>Uñas</div>
+        </Link>
       </div>
     </div>
   );

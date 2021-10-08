@@ -1,0 +1,27 @@
+.container {
+  background-color: #f8ecd6;
+  min-height: 50vh;
+  padding: 5rem 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h2 {
+    color: #a74c5e;
+    font-size: 2.5rem;
+
+    margin-bottom: 2rem;
+  }
+
+  p,
+  li {
+    color: rgb(112, 112, 112);
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  li {
+    margin-left: 2rem;
+  }
+}
