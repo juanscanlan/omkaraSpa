@@ -21,9 +21,9 @@ function Header() {
             <span>998 262 4981</span>
           </div>
         </div>
-        <div className={styles.box}>
+        <div className={`${styles.box} ${styles.emailBox}`}>
           <FontAwesomeIcon className={styles.box__icon} icon={faEnvelope} />
-          <span>omkaraspacozumel@hotmail.com</span>
+          <span className={styles.emailText}>omkaraspacozumel@hotmail.com</span>
         </div>
       </div>
       <Link href="/">

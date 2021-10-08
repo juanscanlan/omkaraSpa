@@ -51,3 +51,12 @@
     color: $color-primary;
   }
 }
+
+@media (max-width: 700px) {
+  .emailBox {
+    display: none;
+  }
+  .box span {
+    font-size: 1.23rem;
+  }
+}
