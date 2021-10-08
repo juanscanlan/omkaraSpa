@@ -7,31 +7,40 @@ function Services() {
     <div className={styles.container}>
       <h3 className={styles.container__title}>Servicios</h3>
       <div className={styles.services}>
-        <Link href="/Ictioterapia">
-          <div className={`${styles.services__box} ${styles.fishSpa}`}>
-            Ictioterapia
-          </div>
+        <Link href="/Ictioterapia" passHref>
+          <a>
+            <div className={`${styles.services__box} ${styles.fishSpa}`}>
+              Ictioterapia
+            </div>
+          </a>
         </Link>
-        <Link href="/Masajes">
-          <div className={`${styles.services__box} ${styles.masajes}`}>
-            Masajes
-          </div>
+        <Link href="/Masajes" passHref>
+          <a>
+            <div className={`${styles.services__box} ${styles.masajes}`}>
+              Masajes
+            </div>
+          </a>
         </Link>
-
-        <Link href="/Velados">
-          <div className={`${styles.services__box} ${styles.velado}`}>
-            Velado de Oído
-          </div>
+        <Link href="/Velados" passHref>
+          <a>
+            <div className={`${styles.services__box} ${styles.velado}`}>
+              Velado de Oído
+            </div>
+          </a>
         </Link>
-
-        <Link href="/Depilacion">
-          <div className={`${styles.services__box} ${styles.depilacion}`}>
-            Depilación
-          </div>
+        <Link href="/Depilacion" passHref>
+          <a>
+            <div className={`${styles.services__box} ${styles.depilacion}`}>
+              Depilación
+            </div>
+          </a>
         </Link>
-
-        <Link href="/Nails">
-          <div className={`${styles.services__box} ${styles.nails}`}>Uñas</div>
+        <Link href="/Nails" passHref>
+          <a>
+            <div className={`${styles.services__box} ${styles.nails}`}>
+              Uñas
+            </div>
+          </a>
         </Link>
       </div>
     </div>

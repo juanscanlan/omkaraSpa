@@ -26,19 +26,29 @@ function Header() {
           <span className={styles.emailText}>omkaraspacozumel@hotmail.com</span>
         </div>
       </div>
-      <Link href="/">
-        <img
-          className={styles.header__logo}
-          src="/navbar/OmkaraWhole.jpg"
-          alt="Omkara Logo"
-        />
+      <Link href="/" passHref>
+        <a>
+          <img
+            className={styles.header__logo}
+            src="/navbar/OmkaraWhole.jpg"
+            alt="Omkara Logo"
+          />
+        </a>
       </Link>
 
       <div className={styles.social}>
-        <FontAwesomeIcon
-          className={styles.social__icon}
-          icon={faFacebookSquare}
-        />
+        <Link
+          href="https://www.facebook.com/Omkara-SPA-1113464802092295"
+          passHref
+        >
+          <a>
+            <FontAwesomeIcon
+              className={styles.social__icon}
+              icon={faFacebookSquare}
+            />
+          </a>
+        </Link>
+
         <FontAwesomeIcon className={styles.social__icon} icon={faInstagram} />
       </div>
     </div>

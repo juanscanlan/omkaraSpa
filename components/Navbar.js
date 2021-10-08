@@ -5,20 +5,20 @@ function Navbar() {
   return (
     <>
       <nav className={styles.navbar}>
-        <Link href="/Ictioterapia">
-          <span>Fish Therapy</span>
+        <Link href="/Ictioterapia" passHref>
+          <a>Fish Therapy</a>
         </Link>
-        <Link href="/Masajes">
-          <span>Masajes</span>
+        <Link href="/Masajes" passHref>
+          <a>Masajes</a>
         </Link>
-        <Link href="/Velados">
-          <span>Velados</span>
+        <Link href="/Velados" passHref>
+          <a>Velados</a>
         </Link>
-        <Link href="/Depilacion">
-          <span>Depilación</span>
+        <Link href="/Depilacion" passHref>
+          <a>Depilación</a>
         </Link>
-        <Link href="/Nails">
-          <span>Uñas</span>
+        <Link href="/Nails" passHref>
+          <a>Uñas</a>
         </Link>
       </nav>
       <nav className={styles.navbarMobile}>
