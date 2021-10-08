@@ -1,19 +1,56 @@
 .features {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
 
+  padding: 2rem 0;
+
   background-color: antiquewhite;
-  height: 20rem;
+  //height: 20rem;
 
   &__box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 20rem;
 
+    padding: 1rem;
+
+    background-color: #fff;
+    border-radius: 2rem;
+
     border: 1px solid black;
 
     font-size: 2rem;
+
+    h3 {
+      font-size: 4rem;
+      font-family: vivaldi;
+      color: #54595f;
+    }
+
+    p {
+      text-align: center;
+      font-family: volkov, sans-serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      color: rgb(112, 112, 112);
+    }
   }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #a74c5e;
+
+  margin: 1rem;
 }
