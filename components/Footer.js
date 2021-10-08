@@ -8,7 +8,11 @@ function Footer() {
       </div>
       <div>
         <span>
-          <a href="https://juanscanlan.github.io/" target="_blank">
+          <a
+            href="https://juanscanlan.github.io/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Site Developed by Juan Scanlan
           </a>
         </span>
