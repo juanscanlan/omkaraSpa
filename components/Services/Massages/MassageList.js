@@ -1,6 +1,7 @@
 const MassageList = [
   {
     Name: "Terapeutico",
+    Key: 1,
     Image: "services/massage/therapeutic.jpg",
     Paragraph: (
       <>
@@ -27,6 +28,7 @@ const MassageList = [
   },
   {
     Name: "Shiatsu",
+    Key: 2,
     Image: "services/massage/shiatsu.jpg",
     Paragraph: (
       <>
@@ -57,6 +59,7 @@ const MassageList = [
   },
   {
     Name: "Anti-Stress",
+    Key: 3,
     Image: "services/massage/antiStress.jpg",
     Paragraph: (
       <>
@@ -77,13 +80,14 @@ const MassageList = [
   },
   {
     Name: "Reflexología Podal",
+    Key: 4,
     Image: "services/massage/podal.jpg",
     Paragraph: (
       <>
         <p>La reflexología podal es más que un simple masaje.</p>
         <br />
         <p>
-          En los pies se encuentran " puntos reflejos". El terapeuta
+          En los pies se encuentran puntos de reflejo. El terapeuta
           experimentado reconoce a través de estos puntos las necesidades del
           paciente y aplica diferentes técnicas para reestablecer el buen
           funcionamiento de órganos, sistemas, etc. y al mismo tiempo causar un
@@ -109,6 +113,7 @@ const MassageList = [
   },
   {
     Name: "Masaje Facial",
+    Key: 5,
     Image: "services/massage/face.jpg",
     Paragraph: (
       <>
