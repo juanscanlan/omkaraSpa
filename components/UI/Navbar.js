@@ -14,8 +14,8 @@ function Navbar() {
         <Link href="/Velados" passHref>
           <a>Velados</a>
         </Link>
-        <Link href="/Depilacion" passHref>
-          <a>Depilación</a>
+        <Link href="/Faciales" passHref>
+          <a>Faciales</a>
         </Link>
         <Link href="/Nails" passHref>
           <a>Uñas</a>

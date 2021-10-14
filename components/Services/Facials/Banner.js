@@ -3,8 +3,8 @@ import style from "./banner.module.scss";
 function Banner() {
   return (
     <div className={style.banner}>
-      <h1>Depilación</h1>
-      <h2>Blah Blah Blah</h2>
+      <h1>Faciales</h1>
+      {/* <h2>Blah Blah Blah</h2> */}
     </div>
   );
 }

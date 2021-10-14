@@ -1,9 +1,9 @@
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
+import Header from "../components/UI/Header";
+import Navbar from "../components/UI/Navbar";
 import Description from "../components/Services/Ictioterapia/Description";
 import Banner from "../components/Services/Ictioterapia/Banner";
-import CompanyInfo from "../components/CompanyInfo";
-import Footer from "../components/Footer";
+import CompanyInfo from "../components/UI/CompanyInfo";
+import Footer from "../components/UI/Footer";
 
 function Ictioterapia() {
   return (

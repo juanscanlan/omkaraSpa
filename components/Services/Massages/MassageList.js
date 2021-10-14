@@ -1,4 +1,4 @@
-const MassageList = [
+const FacialsList = [
   {
     Name: "Terapeutico",
     Key: 1,
@@ -154,4 +154,4 @@ const MassageList = [
   },
 ];
 
-export default MassageList;
+export default FacialsList;
