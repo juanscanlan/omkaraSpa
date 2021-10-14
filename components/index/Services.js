@@ -28,7 +28,7 @@ function Services() {
             </div>
           </a>
         </Link>
-        <Link href="/Depilacion" passHref>
+        <Link href="/Faciales" passHref>
           <a>
             <div className={`${styles.services__box} ${styles.faciales}`}>
               Faciales

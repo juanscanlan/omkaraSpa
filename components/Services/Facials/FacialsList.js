@@ -2,7 +2,7 @@ const MassageList = [
   {
     Name: "Hidratación Facial",
     Key: 1,
-    Image: "services/massage/therapeutic.jpg",
+    Image: "services/facials/hidratante.jpg",
     Paragraph: (
       <>
         <p>
@@ -19,7 +19,7 @@ const MassageList = [
   {
     Name: "Tratamiento antiedad con radiofrecuencia",
     Key: 2,
-    Image: "services/massage/shiatsu.jpg",
+    Image: "services/facials/radioFrequency.jpg",
     Paragraph: (
       <>
         <p>
