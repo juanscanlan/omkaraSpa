@@ -23,7 +23,7 @@ function Navbar() {
       </nav>
       <nav className={styles.navbarMobile}>
         <Link href="/Ictioterapia">
-          <img src="navbar/icons/fishtherapy.png" alt="Fish therapy" />
+          <img src="navbar/icons/fishTherapy.png" alt="Fish therapy" />
         </Link>
         <Link href="/Masajes">
           <img src="navbar/icons/massage.png" alt="Fish therapy" />
