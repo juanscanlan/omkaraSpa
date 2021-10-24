@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className={styles.navbar}>
         <Link href="/Ictioterapia" passHref>
-          <a>Fish Therapy</a>
+          <a>Ictioterapia</a>
         </Link>
         <Link href="/Masajes" passHref>
           <a>Masajes</a>
@@ -31,11 +31,11 @@ function Navbar() {
         <Link href="/Velados">
           <img src="navbar/icons/velado.png" alt="Fish therapy" />
         </Link>
-        <Link href="/Depilacion">
-          <img src="navbar/icons/waxing.png" alt="Fish therapy" />
+        <Link href="/Faciales">
+          <img src="navbar/icons/facial.png" alt="Facials" />
         </Link>
         <Link href="/Nails">
-          <img src="navbar/icons/manicure.png" alt="Fish therapy" />
+          <img src="navbar/icons/manicure.png" alt="Nails" />
         </Link>
       </nav>
     </>

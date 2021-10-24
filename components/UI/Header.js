@@ -17,7 +17,6 @@ function Header() {
         <div className={styles.box}>
           <FontAwesomeIcon className={styles.box__icon} icon={faPhoneAlt} />
           <div className={styles.box__phone}>
-            <span>987 106 2862</span>
             <span>998 262 4981</span>
           </div>
         </div>
@@ -37,19 +36,21 @@ function Header() {
       </Link>
 
       <div className={styles.social}>
-        <Link
-          href="https://www.facebook.com/Omkara-SPA-1113464802092295"
-          passHref
-        >
-          <a>
-            <FontAwesomeIcon
-              className={styles.social__icon}
-              icon={faFacebookSquare}
-            />
-          </a>
-        </Link>
+        <a href="https://www.facebook.com/Omkara-SPA-1113464802092295">
+          <FontAwesomeIcon
+            className={styles.social__icon}
+            icon={faFacebookSquare}
+            target="_blank"
+          />
+        </a>
 
-        <FontAwesomeIcon className={styles.social__icon} icon={faInstagram} />
+        <a href="https://www.instagram.com/omkara.spa/">
+          <FontAwesomeIcon
+            className={styles.social__icon}
+            icon={faInstagram}
+            target="_blank"
+          />
+        </a>
       </div>
     </div>
   );

@@ -112,7 +112,7 @@ const FacialsList = [
     ),
   },
   {
-    Name: "Masaje Facial",
+    Name: "Reflexologia facial",
     Key: 5,
     Image: "services/massage/face.jpg",
     Paragraph: (

@@ -1,7 +1,24 @@
 const MassageList = [
   {
-    Name: "Hidratación Facial",
+    Name: "Limpieza Profunda",
     Key: 1,
+    Image: "services/facials/deepClean.png",
+    Paragraph: (
+      <>
+        <p>
+          La limpieza facial profunda es un tratamiento que nos ayuda a eliminar
+          las impurezas del rostro a causa de la contaminación o los residuos de
+          maquillaje, mejora nuestra piel, la revitaliza, le da un aspecto
+          fresco, luminoso, elimina puntos negros y permite que la epidermis
+          respire para regenerar las células que estimulan la producción de
+          colágeno y elastina.
+        </p>
+      </>
+    ),
+  },
+  {
+    Name: "Hidratación Facial",
+    Key: 2,
     Image: "services/facials/hidratante.jpg",
     Paragraph: (
       <>
@@ -18,7 +35,7 @@ const MassageList = [
   },
   {
     Name: "Tratamiento antiedad con radiofrecuencia",
-    Key: 2,
+    Key: 3,
     Image: "services/facials/radioFrequency.jpg",
     Paragraph: (
       <>

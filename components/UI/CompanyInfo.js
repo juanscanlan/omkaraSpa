@@ -22,10 +22,6 @@ function CompanyInfo() {
         <div className={styles.box__description}>
           <div className={styles.phone}>
             <FontAwesomeIcon className={styles.phone__icon} icon={faPhoneAlt} />
-            <span className={styles.phone__text}>9871062862</span>
-          </div>
-          <div className={styles.phone}>
-            <FontAwesomeIcon className={styles.phone__icon} icon={faPhoneAlt} />
             <span className={styles.phone__text}>9982624981</span>
           </div>
           <div className={styles.phone}>
@@ -44,14 +40,26 @@ function CompanyInfo() {
               className={styles.phone__icon}
               icon={faFacebookSquare}
             />
-            <span className={styles.phone__text}>Omkara Spa</span>
+            <a
+              href="https://www.facebook.com/Omkara-SPA-1113464802092295"
+              target="_blank"
+              className={styles.phone__text}
+            >
+              Omkara Spa
+            </a>
           </div>
           <div className={styles.phone}>
             <FontAwesomeIcon
               className={styles.phone__icon}
               icon={faInstagram}
             />
-            <span className={styles.phone__text}>?</span>
+            <a
+              href="https://www.instagram.com/omkara.spa/"
+              target="_blank"
+              className={styles.phone__text}
+            >
+              Omkara.spa
+            </a>
           </div>
         </div>
       </div>
