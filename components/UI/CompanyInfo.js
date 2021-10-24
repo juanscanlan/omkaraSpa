@@ -44,6 +44,7 @@ function CompanyInfo() {
               href="https://www.facebook.com/Omkara-SPA-1113464802092295"
               target="_blank"
               className={styles.phone__text}
+              rel="noreferrer"
             >
               Omkara Spa
             </a>
@@ -57,6 +58,7 @@ function CompanyInfo() {
               href="https://www.instagram.com/omkara.spa/"
               target="_blank"
               className={styles.phone__text}
+              rel="noreferrer"
             >
               Omkara.spa
             </a>
