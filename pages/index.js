@@ -5,6 +5,7 @@ import Features from "../components/index/Features";
 import Services from "../components/index/Services";
 import CompanyInfo from "../components/UI/CompanyInfo";
 import Footer from "../components/UI/Footer";
+import MakeBooking from "../components/UI/MakeBooking";
 
 export default function HomePage() {
   return (
@@ -12,7 +13,8 @@ export default function HomePage() {
       <Header />
       <Navbar />
       <Home />
-      <Features />
+      {/* <Features /> */}
+      <MakeBooking />
       <Services />
       <CompanyInfo />
       <Footer />

@@ -22,7 +22,15 @@ function CompanyInfo() {
         <div className={styles.box__description}>
           <div className={styles.phone}>
             <FontAwesomeIcon className={styles.phone__icon} icon={faPhoneAlt} />
-            <span className={styles.phone__text}>9982624981</span>
+            <span className={styles.phone__text}>
+              <a
+                href="https://wa.me/529982624981"
+                target="_blank"
+                rel="noreferrer"
+              >
+                9982624981
+              </a>
+            </span>
           </div>
           <div className={styles.phone}>
             <FontAwesomeIcon className={styles.phone__icon} icon={faEnvelope} />
