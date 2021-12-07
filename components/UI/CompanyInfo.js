@@ -73,14 +73,14 @@ function CompanyInfo() {
           </div>
         </div>
       </div>
-      <div className={styles.box}>
+      {/* <div className={styles.box}>
         <h4 className={styles.box__title}>Enlaces rápidos</h4>
         <div className={styles.box__description}>
           <span>Política de servicio</span>
           <span>Pregunats Frequentes</span>
           <span>...</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

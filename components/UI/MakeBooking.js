@@ -14,7 +14,7 @@ const MakeBooking = () => {
       <h3 className={styles.container__title}>Reserva con nosotros</h3>
       <div className={styles.buttonsContainer}>
         <a
-          href="https://wa.me/529982624981"
+          href="https://wa.me/529871377590"
           target="_blank"
           rel="noopener noreferrer"
         >
